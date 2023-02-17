@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gestion archive</title>
+    <link rel="stylesheet" href="css/stage.css" type="text/css">
+
+</head>
+
+<body>
+    
+    <header id="header">
+        <h1> <strong> archive news </strong></h1>
+        <ul>
+            <li id="acceuil" onclick="acceuil()"><a href="index.html"title="miralaza ">ACCEUIL</a></li> 
+            <li id="district" onclick="district()">
+                <select name="district">
+                    <option><a href="fianarantsoa.html" title="vaovao fianarantsoa">FIANARANTSOA I</a></option>
+                    <option value="IKALAMAVONY">IKALAMAVONY</option>
+                    <option value="AMBALAVAO">AMBALAVAO</option>
+                    <option value="VOHIBATO">VOHIBATO</option>
+                    <option value="ISANDRA">ISANDRA</option>
+                    <option value="LALANGINA">LALANGINA</option>
+                    <option value="AMBOHIMAHASOA">AMBOHIMAHASOA</option>
+                </select>
+            </li>
+            <li id="contact" onclick="contact()"><a href="html/contact.html" title="contactez nous">CONTACT</a></li>
+            <form action="" method="get" class="recherche">
+                <input type="text" placeholder="recherche"> 
+                <button type="button">Recherche</button>
+            </form>
+        </ul>
+    </header>
+    <section id="content">
+        <div class="video">
+            <div class="v" id="v1" onclick="test()">
+                    <video  poster="photo/Capture.png" class="vaovao">
+                        <source src="video/VAOVAO 14 OCT 2022/FAHASALMANA ISANDRA.mp4">
+                    </video>
+                </a>
+            </div>
+            <div class="v" id="v2" onclick="mir()">
+                <video class="vaovao" poster="photo/karapanondro.png">
+                    <source src="video/VAOVAO 14 OCT 2022/KARAM-PANONDRO iSANDRA.mp4">
+                </video>
+            </div>
+            <div class="v" id="v3" onclick="arli()">
+                <video class="vaovao">
+                    <source src="video/VAOVAO 14 OCT 2022/PRD KOLONTSAINA.mp4">
+                </video>
+            </div> 
+            <div class="v" id="v4" onclick="tagnam()">
+                <video class="vaovao" poster="photo/lalangina.png">
+                    <source src="video/VAOVAO 14 OCT 2022/LALANGINA TAGNAMARO OCTOBRE 22.mp4">
+                </video>
+            </div>
+            <div class="v" id="v5" onclick="minis()">
+                <video class="vaovao" poster="photo/rano.png">
+                    <source src="video/VAOVAO 15 OCT 2022/VOHIBATO MINISITRY NY RANO.mp4">
+                </video>
+            </div>
+            <div class="v" id="v6" onclick="rano()">
+                <video class="vaovao" poster="photo/fianarantsoa.png">
+                    <source src="video/VAOVAO 17 OCT 2022/FIANARANTSOA MIN RANO.mp4">
+                </video>
+            </div>
+            <div class="v" id="v7" onclick="simen()">
+                <video class="vaovao" poster="photo/vlcsnap-2022-11-21-20h21m58s907.png">
+                    <source src="video/VAOVAO 17 OCT 2022/VOHIBATO TOLOTRA SIMENITRA AVY TAM LOHOLON'I MADAGASIKARA.mp4">
+                </video>
+            </div>
+            <div class="v" id="v8" onclick="jiro()">
+                    <video class="vaovao" poster="photo/vohimarina.png">
+                        <source src="video/VAOVAO 17 OCT 2022/JIRO VOHIMARINA LOHOLONA MISY HABILLAGE.mp4">
+                    </video>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" style="display: block; background-image:url(photo/Pictures_14.jpg); height: 100px; width: auto; text-align:center;">
+        <p style="color: black; padding-top: 50px;"> <strong>MIRALARLI</strong></p>
+    </footer>    
+    <script src="js/js.js" type="text/javascript"></script>
+</body>
+</html>

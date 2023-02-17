@@ -1,0 +1,63 @@
+body{
+    margin: 0 auto;
+}
+
+#header h1{
+    margin-top: 0px;
+}
+
+#header{
+    background-image: url("../photo/vohibato.png");
+    width: auto;
+    height: 200px;
+}
+#header ul li select {
+    font-size: 15px;
+    color: bisque;
+    background-color: rgb(110, 106, 101);
+}
+#header ul form input {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(110, 106, 101);
+}
+#header ul form button{
+    font-size: 25px;
+    color: black;
+    background-color: grey;
+    padding: auto;
+    text-align: center;
+}
+#header h1{
+    color: black;
+    margin-left: 30px;
+    font-style: italic;
+}
+#header ul{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    width: auto;
+    list-style: none;
+    margin: 50px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+#header ul li a{
+    color: bisque;
+}
+.video{
+    background-color: white;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+.v{ 
+    display: inline;
+}
+.vaovao{ 
+    width: 30%;
+    height: 400px;
+    margin: 15px;
+}
